@@ -1,13 +1,11 @@
-import React from 'react';
-import Sid from './Sid';
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Sid name="john" snumber="1410532032" />
-        <Sid name="seal" snumber="1410532031" />
-      </>
-    );
-  }
+import TodoApp from './1215/4-9.練習題-todo-拆分TodoList元件/1215/4.todo/TodoApp';
+
+function App() {
+  return (
+    <>
+      <TodoApp />
+    </>
+  );
 }
+
 export default App;
