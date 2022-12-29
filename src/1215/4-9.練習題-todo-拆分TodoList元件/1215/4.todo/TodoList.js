@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function TodoList({ todos, toggleCompleted, deleteTodo }) {
   return (
@@ -18,11 +18,11 @@ function TodoList({ todos, toggleCompleted, deleteTodo }) {
               {v.text}
               <button onClick={() => deleteTodo(v.id)}>刪除</button>
             </li>
-          );
+          )
         })}
       </ul>
     </>
-  );
+  )
 }
 
-export default TodoList;
+export default TodoList
